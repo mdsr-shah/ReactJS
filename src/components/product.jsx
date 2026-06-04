@@ -1,4 +1,4 @@
-import "./product.css";
+import '../styles/product.css';
 
 function Product({title, price, description, features}){
 // if (price > 3000){

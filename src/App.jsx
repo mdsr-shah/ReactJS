@@ -1,6 +1,10 @@
-import "./App.css";
-import ProductGroup from "./productGrp.jsx";
-import Car from "./cars.jsx";
+import "./styles/App.css";
+// import ProductGroup from "./components/productGrp.jsx";
+// import Car from "./components/cars.jsx";
+// import Button from "./components/Button.jsx";
+// import Form from "./components/Form.jsx";
+// import Counter from "./components/Counter.jsx";
+import LikeButton from "./components/LikeButton.jsx";
 
 function Title(){
   let name = "React";
@@ -22,12 +26,20 @@ function Description(){
 function App() {
   return  (
   <>
-    <h1>This is my heading</h1>
+    {/* <h1>This is my heading</h1> */}
     {/* <Title/>
     <Description/> */}
-    <ProductGroup/>
-    <Car brand="Toyota" model="Camry"/> /*Destrcuting props*/
-    <Car brand="Honda" model="Civic"/>
+   { /* <ProductGroup/>
+    <Car brand="Toyota" model="Camry"/> Destrcuting props
+    <Car brand="Honda" model="Civic"/> */ }
+
+    {/* <Button/> */}
+    {/* <Form/> */}
+
+    {/* <Counter/> */}
+
+    <LikeButton/>
+
   </>
   );
 }
