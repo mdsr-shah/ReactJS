@@ -4,23 +4,27 @@ import "./styles/App.css";
 // import Button from "./components/Button.jsx";
 // import Form from "./components/Form.jsx";
 // import Counter from "./components/Counter.jsx";
-import LikeButton from "./components/LikeButton.jsx";
+// import LikeButton from "./components/LikeButton.jsx";
+// import TodoList from "./components/TodoList.jsx";
+//  import CommentForm from "./components/CommentForm.jsx";
+import CounterEffect from "./components/CounterEffect.jsx";
 
-function Title(){
-  let name = "React";
-  return  (
-  <> 
-    <div>
-      <p>2+2 = {2+2}</p>
-      <p>Hello {name}!</p>
-    </div>
-  </>
-  );
-}
 
-function Description(){
-  return <h1>This is my first React Description </h1>;
-}
+// function Title(){
+//   let name = "React";
+//   return  (
+//   <> 
+//     <div>
+//       <p>2+2 = {2+2}</p>
+//       <p>Hello {name}!</p>
+//     </div>
+//   </>
+//   );
+// }
+
+// function Description(){
+//   return <h1>This is my first React Description </h1>;
+// }
 
 
 function App() {
@@ -38,7 +42,15 @@ function App() {
 
     {/* <Counter/> */}
 
-    <LikeButton/>
+    {/* <LikeButton/> */}
+
+    {/* <TodoList/> */}
+
+    {/* <Form/> */}
+
+    {/* <CommentForm /> */}
+
+    <CounterEffect/>
 
   </>
   );
