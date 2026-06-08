@@ -7,7 +7,10 @@ import "./styles/App.css";
 // import LikeButton from "./components/LikeButton.jsx";
 // import TodoList from "./components/TodoList.jsx";
 //  import CommentForm from "./components/CommentForm.jsx";
-import CounterEffect from "./components/CounterEffect.jsx";
+// import CounterEffect from "./components/CounterEffect.jsx";
+// import SearchBox from "./weatherApi/SearchBox.jsx";
+// import InfoBox from "./weatherApi/InfoBox.jsx";
+import WeatherApp from "./weatherApi/WeatherApp.jsx";
 
 
 // function Title(){
@@ -50,8 +53,12 @@ function App() {
 
     {/* <CommentForm /> */}
 
-    <CounterEffect/>
+    {/* <CounterEffect/> */}
 
+    {/* <SearchBox/>
+    <InfoBox/> */}
+
+      <WeatherApp/>
   </>
   );
 }
