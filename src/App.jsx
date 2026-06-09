@@ -1,3 +1,4 @@
+
 import "./styles/App.css";
 // import ProductGroup from "./components/productGrp.jsx";
 // import Car from "./components/cars.jsx";
@@ -10,7 +11,8 @@ import "./styles/App.css";
 // import CounterEffect from "./components/CounterEffect.jsx";
 // import SearchBox from "./weatherApi/SearchBox.jsx";
 // import InfoBox from "./weatherApi/InfoBox.jsx";
-import WeatherApp from "./weatherApi/WeatherApp.jsx";
+// import WeatherApp from "./weatherApi/WeatherApp.jsx";
+import {Counter,Login} from "./components/Hooks.jsx";
 
 
 // function Title(){
@@ -58,7 +60,10 @@ function App() {
     {/* <SearchBox/>
     <InfoBox/> */}
 
-      <WeatherApp/>
+      {/* <WeatherApp/> */}
+
+      <Counter/>
+      <Login/>
   </>
   );
 }
